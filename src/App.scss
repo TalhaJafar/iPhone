@@ -1,15 +1,11 @@
 @import './globalStyles.scss';
 
 .app{
-    @include flex(row);
-    @include aligin_content(center, center);
-    background-color: $primaryColor;
-    &:hover{
-        background-color: aquamarine;
-    }
+    @include flex(row);    
 }
 
-.extending_func{
-    @extend .app;
-    background-color: blueviolet;
+body{
+    margin:0px;
+    padding: 0px;
+    overflow-x: hidden;
 }

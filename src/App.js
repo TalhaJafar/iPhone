@@ -1,16 +1,15 @@
+import Navbar from './components/Navbar/index'
+import Home from './pages/Home'
 import './globalStyles.scss'
 import './App.scss';
 
+
 function App() {
   return (
-    <>
-      <div className="app">
-        abc
-      </div>
-      <div className="extending_func">
-        abc
-      </div>
-    </>
+    <div>
+      <Navbar/>
+      <Home/>
+    </div>
   );
 }
 

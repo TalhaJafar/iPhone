@@ -1,0 +1,42 @@
+@import '../globalStyles.scss';
+
+.main_container{
+    height: 100vh;
+    background: radial-gradient(circle, #D18D6F, #eccdbb);
+}
+
+.sub_container{
+    height: 100%;
+}
+
+.news_col{
+    display: flex;
+    align-items: flex-end;
+    height: 100% !important;
+}
+
+.news_container{
+    height: 50%;
+    width: 100%;
+}
+
+.big_news{
+    height: 100%;
+    background-color: #D3C5AA;
+    border: 0px;
+    border-radius: 0px 50px 0px 0px;
+}
+
+.big_news_div {
+    height: 30%;
+}
+.big_news .imgdiv{
+    height: 70%;
+}
+
+.mini_news{
+    height: 100%;
+    background-color: #a7d9e0;
+    border: 0px;
+    border-radius: 50px 0px 0px 0px;
+}

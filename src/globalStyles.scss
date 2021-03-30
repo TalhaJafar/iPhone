@@ -1,4 +1,4 @@
-$primaryColor:red;
+$primaryColor:'#E2B039';
 $secondaryColor:white;
 
 
@@ -6,32 +6,4 @@ $secondaryColor:white;
 @mixin flex ($direction) {
     display: flex;
     flex-direction: $direction;
-}
-
-// Width-Height
-@mixin width_height($width, $height) {
-    width: $width;
-    height: $height;
-}
-
-//Align-Items
-@mixin aligin_content( $justify, $align ) {
-    justify-content: $justify;
-    $align-items:   $align;
-}
-
-//Margins
-@mixin margin ($top , $bottom, $left , $right){
-    margin-top: $top;
-    margin-bottom: $bottom;
-    margin-left: $left;
-    margin-right: $right;
-}
-
-//Paddings
-@mixin paddings ($top , $bottom, $left , $right){
-    padding-top: $top;
-    padding-bottom: $bottom;
-    padding-left: $left;
-    padding-right: $right;
 }
