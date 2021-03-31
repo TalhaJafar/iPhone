@@ -14,9 +14,9 @@ function Home() {
 
   useEffect(() => {
 
-    gsap.from('.main img', {duration:2 , opacity:0.1});
-    gsap.from('.main div', {duration:2 , y: 50 , opacity:0});
-    gsap.from('.main h6', {duration:2 , y: -50 , opacity:0});
+    gsap.from('.main img', {duration:2 ,scale:0.2 , opacity:0 , ease:"Power4.easeInOut"});
+    gsap.from('.main div', {duration:3 , y: 50 , opacity:0});
+    gsap.from('.main h6', {duration:3 , y: -50 , opacity:0});
 
     gsap.from('.big_news', {duration:2 , x: -100 , opacity:0});
     gsap.from('.mini_news', {duration:2 , x: 100 , opacity:0});
